@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bmpviewer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/bmpviewer.res" /d "_DEBUG" /d "_AFXDLL" "D:\Project\Example\PDP\bmpviewer\bmpviewer.rc"" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP117D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/bmpviewer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Project\Example\PDP\bmpviewer\BaseImage.cpp"
+"D:\Project\Example\PDP\bmpviewer\bmpviewer.cpp"
+"D:\Project\Example\PDP\bmpviewer\bmpviewerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP117D.tmp" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP117E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/bmpviewer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Project\Example\PDP\bmpviewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP117E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/bmpviewer.pdb" /debug /machine:I386 /out:"Debug/bmpviewer.exe" /pdbtype:sept  .\Debug\BaseImage.obj .\Debug\bmpviewer.obj .\Debug\bmpviewerDlg.obj .\Debug\StdAfx.obj .\Debug\bmpviewer.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BaseImage.cpp
+bmpviewer.cpp
+bmpviewerDlg.cpp
+Generating Code...
+Linking...
+LINK : LNK6004: Debug/bmpviewer.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+bmpviewer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

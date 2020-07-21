@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PdpPattern - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/PdpPattern.res" /d "_DEBUG" /d "_AFXDLL" "D:\project\PdpPattern_apl\PdpPattern.rc"" 
+Creating temporary file "C:\DOCUME~1\박경수\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PdpPattern.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\project\PdpPattern_apl\PdpPattern.cpp"
+"D:\project\PdpPattern_apl\PdpPatternDlg.cpp"
+"D:\project\PdpPattern_apl\PdpTP.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\박경수\LOCALS~1\Temp\RSP45.tmp"" 
+Creating temporary file "C:\DOCUME~1\박경수\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PdpPattern.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\project\PdpPattern_apl\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\박경수\LOCALS~1\Temp\RSP46.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PdpPattern.pdb" /debug /machine:I386 /out:"Debug/PdpPattern.exe" /pdbtype:sept  .\Debug\PdpPattern.obj .\Debug\PdpPatternDlg.obj .\Debug\PdpTP.obj .\Debug\StdAfx.obj .\Debug\PdpPattern.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PdpPattern.cpp
+Generating Code...
+Compiling...
+PdpPatternDlg.cpp
+Generating Code...
+Compiling...
+PdpTP.cpp
+D:\project\PdpPattern_apl\PdpTP.cpp(173) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PdpPattern.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

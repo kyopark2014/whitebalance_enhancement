@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WBCompensator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP11D8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WBCompensator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Project\Example\PDP\WBCompensator\WBCompensatorDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP11D8.tmp" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP11D9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/WBCompensator.pdb" /debug /machine:I386 /out:"Debug/WBCompensator.exe" /pdbtype:sept 
+.\Debug\BaseImage.obj
+.\Debug\GlobalFunc.obj
+.\Debug\StdAfx.obj
+.\Debug\VideoWnd.obj
+.\Debug\WBCompensator.obj
+.\Debug\WBCompensatorDlg.obj
+.\Debug\WBCompensator.res
+]
+Creating command line "link.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP11D9.tmp"
+<h3>Output Window</h3>
+Compiling...
+WBCompensatorDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+WBCompensator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GifShow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\TEMP\RSP288.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GifShow.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Sylee\원고\GifShow\GifShow.cpp"
+"C:\Sylee\원고\GifShow\GifShowDoc.cpp"
+"C:\Sylee\원고\GifShow\GifShowView.cpp"
+"C:\Sylee\원고\GifShow\BaseImage.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP288.tmp" 
+Creating temporary file "D:\TEMP\RSP289.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/GifShow.pdb" /debug /machine:I386 /out:"Debug/GifShow.exe" /pdbtype:sept 
+".\Debug\GifShow.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\GifShowDoc.obj"
+".\Debug\GifShowView.obj"
+".\Debug\GifShow.res"
+".\Debug\Gif.obj"
+".\Debug\BaseImage.obj"
+]
+Creating command line "link.exe @D:\TEMP\RSP289.tmp"
+<h3>Output Window</h3>
+Compiling...
+GifShowDoc.cpp
+BaseImage.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+GifShow.cpp
+GifShowView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+GifShow.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

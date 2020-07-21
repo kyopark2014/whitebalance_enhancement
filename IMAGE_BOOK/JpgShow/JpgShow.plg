@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JpgShow - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/JpgShow.res" /d "NDEBUG" /d "_AFXDLL" "D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\JpgShow.rc"" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/JpgShow.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\BaseImage.cpp"
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\ChildFrm.cpp"
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\Jpeg.cpp"
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\JpgShow.cpp"
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\JpgShowDoc.cpp"
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\JpgShowView.cpp"
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP24.tmp" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/JpgShow.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Project\Example\PDP\IMAGE_BOOK\JpgShow\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP25.tmp" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP26.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/JpgShow.pdb" /machine:I386 /out:"Release/JpgShow.exe" 
+.\Release\BaseImage.obj
+.\Release\ChildFrm.obj
+.\Release\Jpeg.obj
+.\Release\JpgShow.obj
+.\Release\JpgShowDoc.obj
+.\Release\JpgShowView.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\JpgShow.res
+]
+Creating command line "link.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP26.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BaseImage.cpp
+ChildFrm.cpp
+Jpeg.cpp
+JpgShow.cpp
+JpgShowDoc.cpp
+JpgShowView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+JpgShow.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
